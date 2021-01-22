@@ -26,13 +26,18 @@ Use the setup following these commands.
 
 **When using nvm make sure this is not installed through brew, because this can result in errors when running npm scripts.**
 
-__1. Install all the npm modules__
+
+__1. Make sure you're on the right node version. (8.x-10.x should work)__
+
+Whilest using nvm you can run `nvm use` to switch
+
+__2. Install all the npm modules__
 
 `npm install`
 
-__2. Start the project__
+__3. Start the project__
 
-`npm run gulp` or  `npm run start`
+`npm start`
 
 # Assignment #
 _We have formulated an assignment to test your technical knowledge. The assignment is specifically made to see how you would integrate a new feature into an existing setup. This means you do not need to setup the project from scratch and it already consists of a builder (if you feel like improving it - add webpack for example - we encourage that of course)._
